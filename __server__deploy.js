@@ -15,4 +15,5 @@
  * 3. git push heroku main
  * 4. Go to heroku dashboard > current project > settings > reveal config vars
  * 5. copy pase config vars from your .env file
+ * 6. Make sure you whitelisted all ip address in mongodb
  */
