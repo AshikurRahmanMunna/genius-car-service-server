@@ -37,7 +37,7 @@ async function run() {
     await client.connect();
     const serviceCollection = client.db("geniusCar").collection("service");
     const orderCollection = client.db("geniusCar").collection("order");
-    console.log("Genius car DB connected");
+    console.log("Genius car Database connected");
 
     // AUTH
     app.post("/login", async (req, res) => {
