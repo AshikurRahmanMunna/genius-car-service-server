@@ -21,5 +21,11 @@
  * -------------------------
  * 1. make changes
  * 2. commit or push changes on git
- * git push heroku main
+ * 3. git push heroku main
+ * ------------------------------
+ * Connect Server with client and deploy client
+ * ------------------------------
+ * 1. replace localhost by heroku link
+ * 2. npm run build
+ * 3. firebase deploy
  */
